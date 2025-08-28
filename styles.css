@@ -1,0 +1,146 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resume-header {
+    text-align: center;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #c56cf0);
+}
+
+#resumeTitleHeader {
+    font-size: 5em;
+    font-style: arial;
+}
+
+.resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+        "left right";
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: start;
+}
+
+.left-col {grid-area: left; }
+.right-col {grid-area: right; }
+
+address > p {
+    margin: 0;
+    padding: 0;
+}
+
+.name {
+    font-size: 45px;
+    text-decoration: underline; 
+}
+
+.softwareDevConcepts {
+    text-decoration: underline;
+}
+
+.softSkills {
+    text-decoration: underline;
+}
+
+.education {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.tableCap {
+    font-size: 1.5em;
+}
+
+.experiencePos, .experienceCom, .experienceDate {
+    text-align: center;
+}
+
+.headCol {
+    background-color:rgb(239, 243, 4)
+}
+
+#clHeaderTitle {
+    font-size: 5em;
+    text-align: center;
+    font-style: arial;
+}
+
+.clContact {
+    text-align: center;
+}
+
+.clHeader {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #c56cf0);
+}
+
+.companyName {
+    color: lightblue;
+}
+
+.jobBoard {
+    color: lightblue;
+}
+
+.clArticle {
+    font-size: 2em;
+}
+
+#cgMainHead {
+    text-align: center;
+    font-style: arial;
+    font-size: 5em;
+    font-style: arial;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:hover {
+    color:lime;
+}
+
+#cgMainHeader {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #c56cf0);
+}
+
+.cgPriorities {
+    padding: none;
+    margin-top: none;
+}
+
+section h3 {
+    text-align: center;
+}
+
+.cgGoalsDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cgSummary {
+    border: 5px solid black 
+}
+
+body {
+    background-color: rgb(162, 162, 163)
+}
+
+ul {
+    list-style-type: square;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}

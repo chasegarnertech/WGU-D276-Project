@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Career-goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="cgMainHeader">
+        <h1 id="cgMainHead">Career Goals</h1>
+        <nav>
+            <a href="resume.html">Resume</a>
+            <a href="cover-letter.html">Cover Letter</a>
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+        <hr />
+    </header>
+    <main>
+        <section class="cgPriorities">
+            <h3>Career Priorities</h3>
+            <p>I'm looking for a stable, high-paying role in tech that can't easily be automated away, where I'm constantly learning and excited about the work I do.</p>
+            <ol>
+                <li>
+                    <mark><strong>Job security & Stability:</strong></mark> I desire for something future proof. Stability and resilience against automation matter most - I want a field where my skills stay valuable over time.
+                </li>
+                <li>
+                    <mark><strong>High Income Potential:</strong></mark> Salary growth, benefits, and long-term earning potential are a huge driver in my career search.
+                </li>
+                <li>
+                    <mark><strong>Interesting & Fulfilling Work:</strong></mark> I don't want to just grind away at something boring. I desire a career where I actually enjoy the problem solving. Keeping my work stimulating is a must.
+                </li>
+            </ol>
+        </section>
+        <hr />
+        <section class="cgShortTerm">
+            <h3>Short-Term Goals (1-3 Years):</h3>
+            <div class="cgGoalsDiv">
+                <img src="images/western-governors-university.jpg" alt="wguPhoto" width="300px">
+                <ul>
+                    <li>Complete my Computer Science degree at WGU.</li>
+                    <li>Secure a software engineering internship.</li>
+                    <li>Strengthen my portfolio (GitHub, personal website).</li>
+                </ul>
+                <figure>
+                    <video controls playsinline width="400">
+                        <source src="video/cgWguVid.mp4" type="video/mp4">"
+                    </video>
+                </figure>
+            </div>
+        </section>
+        <hr />
+        <section class="cgLongTerm">
+            <h3>Long-Term Goals (5+ Years):</h3>
+            <div class="cgGoalsDiv">
+                <img src="images/cgPic2.jpg" alt="interactive-applications" width="200px">
+                <ul>
+                    <li>Work as a full-time Software Engineer specializing in AR/VR and interactive applications.</li>
+                    <li>Build expertise in gameplay systems and immersive storytelling using Unity/Unreal.</li>
+                    <li>Earn $100k+ salary in a stable, growth-oriented role.</li>
+                    <li>Continue lifelong learning with advanced certifications and industry experience.</li>
+                </ul>
+            </div>
+        </section>
+        <hr />
+        <section class="cgSkillsDevelopment">
+            <h3>Skills Development Plan (Technical & Professional skills to Develop)</h3>
+            <div class="cgGoalsDiv">
+                <img src="images/cgPic3.jpg" alt="skills-development-plan" width="200px">
+                <ul>
+                    <li><strong>Technical:</strong> JavaScript, Python, SQL, cloud computing.</li>
+                    <li><strong>Professional:</strong> Communication, teamwork, problem-solving.</li>
+                </ul>
+            </div>
+        </section>
+        <hr />
+        <section class="cgBrandingNetworking">
+            <h3>Professional Branding & Networking</h3>
+            <div class="cgGoalsDiv">
+                <img src="images/cgPic4.jpg" alt="Branding-Networking" width="200px">
+                <ul>
+                    <li>Build LinkedIn & GitHub presence.</li>
+                    <li>Attend tech meetups, conferences, online hackathons.</li>
+                    <li>Seek mentorship opportunities.</li>
+                </ul>
+            </div>
+        </section>
+        <hr />
+        <section class="cgSummary">
+            <p class="summary">My career goals center around building a secure, high-income, and fulfilling role in software engineering, with a focus on AR/VR and interactive applications. I’m especially motivated by creating engaging single-player, story-driven, and practical experiences, where I can design the logic and features that make applications work seamlessly. I enjoy working with established engines like Unity or Unreal, and I see myself thriving in larger companies, well-funded studios, or industries such as simulation and ed-tech—environments that offer both stability and strong long-term prospects. This path allows me to combine my passion for emerging technologies with my career priorities of job security, growth, and meaningful work, ensuring a future where I am not only successful but also excited to go to work every day.</p>
+            <audio controls>
+                <source src="audio/cgRecording.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        <section class="cgContactForm">
+            <h3>Contact Me:</h3>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <div>
+                    <label for="firstName">First name:</label>
+                    <input id="firstName" name="first_name" type="text" required>
+                </div>
+                <div>
+                    <label for="lastName">Last name:</label>
+                    <input id="lastName" name="last_name" type="text" required>
+                </div>
+                <div>
+                    <label for="companyName">Company name:</label>
+                    <input id="companyName" name="company_name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email"required>
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input id="phone" name="phone" type="tel" placeholder="407-473-7116">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                </div>
+                <fieldset>
+                    <legend>Best Contact Time:</legend>
+                    <label><input type="radio" name="best_contact_time" value="am" required> a.m.</label>
+                    <label><input type="radio" name="best_contact_time" value="pm"> p.m.</label>
+                    <label><input type="radio" name="best_contact_time" value="anytime"> anytime</label>
+                </fieldset>
+                <div>
+                    <label for="preferredcon">Preferred Contact:</label>
+                    <select id="preferredcon" name="preferred_contact_method" required>
+                        <option value="">-- Select one --</option>
+                        <option value="phone">phone</option>
+                        <option value="email">email</option>
+                        <option value="text">text</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><small>&copy; Chase Garner - Portfolio</small></p>
+    </footer>
+</body>
+</html>

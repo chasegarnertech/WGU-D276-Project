@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="resume-header">
+        <h1 id="resumeTitleHeader">Resume</h1>
+        <nav>
+            <a href="resume.html">Resume</a>
+            <a href="cover-letter.html">Cover Letter</a>
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+        <hr />
+    </header>
+    <main class="resume-grid">
+        <!-- Left Column -->
+        <aside class="left-col">
+        <h1 class="name"><strong>Chase Garner</strong></h1>
+        <address class="contact">
+            <p><em>Contact me:</em></p><br>
+            <p>Email: <a href="mailto:chasegarnertech98@gmail.com">chasegarnertech98@gmail.com</a></p><br>
+            <p>Phone number: 407-473-7116</p><br/>
+            <p><span>Location:</span> Orlando, FL<br/>Willing to relocate</p>
+        </address>
+        <section class="resume-summary">
+            <h2>Summary:</h2>
+            <article>
+            <p>Motivated and reliable Computer Science student at Western Governors University with a strong work ethic, quick learning ability, and hands-on problem solving skills. Former welder transitioning into the tech industry, bringing a proven track record of working well under pressure and delivering consistent results. Know for being dependable, detail-oriented, and adaptable in fast-paced environments. Currently developing a strong foundation in programming and software principles, while seeking part-time opportunities to contribute value, grow professionally, and support long-term carrer goals.</p>
+            </article>
+        </section>
+        <section class="resume-skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>
+                    <p>
+                    <span class="softwareDevConcepts"><strong>Software Development Concepts: </strong></span><br />
+                     Object-Oriented programming (OOP), Version Control, Debugging, Data Structures, Algorithms, Basic Web Development
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    <span class="softSkills"><strong>Soft Skills: </strong></span><br />
+                    Self-motivated, Strong problem-solving skills, Quick learner, Team collaboration, Attention to detail, Adaptability, Effective communication, and Excellent Customer service    
+                    </p>
+                </li>
+            </ul>
+        </section>
+        </aside>
+        <!-- Right Column -->
+        <aside class="right-col">
+        <section class="resume-education">    
+            <h2 class="education">Education</h2>
+            <ul>
+                <li><strong>Associate of Arts in Health Sciences</strong><br />
+                    Tallahassee Community College, Tallahassee, FL | December 2020
+                </li>
+                <li><strong>Bachelors of Science in Computer Science</strong><br />
+                    Western Governors University, Salt Lake City, UT | Expected in September 2028
+                </li>
+            </ul>
+        </section>
+        <section class="resume-experience">
+            <table class="experienceTable" border="1">
+                <caption class="tableCap"><strong>Professional Experience</strong></caption>
+                <tr class="headCol">
+                    <th>Position</th>
+                    <th>Company/Location</th>
+                    <th>Duties/Responsibilies</th>
+                    <th>Dates of Employment</th>
+                </tr>
+                <tr>
+                    <td class="experiencePos">Motel Maintenance</td>
+                    <td class="experienceCom"><strong>The Inn at Overland</strong> <em>Apopka, FL</em></strong></td>
+                    <td>
+                        <ul>
+                            <li>Demonstrated leadership skills in managing projects from concept to completion.</li>
+                            <li>Managed time efficiently in order to complete all tasks within deadlines.</li>
+                            <li>Demonstrated respect, friendliness and willingness to help wherever needed.</li>
+                        </ul>
+                    </td>
+                    <td class="experienceDate">January 2021 - March 2022</td>
+                </tr>
+                <tr>
+                    <td class="experiencePos">Welder</td>
+                    <td class="experienceCom"><strong>REV Group Inc.</strong> <em>Winter Park, FL</em></td>
+                    <td>
+                        <ul>
+                            <li>Performed precision welding on industrial projects with strict safety and quality standards.</li>
+                            <li>Read blueprints and used technical tools to complete multiple custom fabrication jobs.</li>
+                            <li>Maintained focus and accuracy under high-pressure and time-sensitive conditions.</li>
+                        </ul>
+                    </td>
+                    <td class="experienceDate">October 2023 - July 2024</td>
+                </tr>
+                <tr>
+                    <td class="experiencePos">Technician</td>
+                    <td class="experienceCom"><strong>Valvoline Instant Oil</strong> <em>Apopka, FL</em></td>
+                    <td>
+                        <ul>
+                            <li>Performed routine automotive maintenance, including oil changes, fluid checks, and filter replacements.</li>
+                            <li>Demonstrated to customers proper methods for operating equipment after it had been installed.</li>
+                            <li>Conducted vehicle inspections to identify potential issues and communicated findings to customers and senior technician.</li>
+                        </ul>
+                    </td>
+                    <td class="experienceDate">June 2025 - Current</td>
+                </tr>
+            </table>
+        </section>
+        </aside>
+    </main>
+    <footer>
+        <section>
+            <h2>Current Date</h2>
+            <div id="current-date"></div>
+        </section>
+        <p><small>&copy; Chase Garner - Portfolio</small></p>
+    </footer>
+    <script>
+        const dateDiv = document.getElementById("current-date");
+        const today = new Date();
+        dateDiv.textContent = today.toDateString();
+        console.log("Date added", today);
+    </script>
+</body>
+</html>
